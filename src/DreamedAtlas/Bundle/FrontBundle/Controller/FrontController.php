@@ -8,4 +8,14 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 
 class FrontController extends Controller
 {
+    /**
+     * @Route("/")
+     * @Template("@DreamedAtlasFront/Front/index.html.twig")
+     *
+     * @return array
+     */
+    public function indexAction()
+    {
+        return array();
+    }
 }
