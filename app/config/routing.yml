@@ -1,3 +1,8 @@
+dreamed_atlas_front:
+    resource: "@DreamedAtlasFrontBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 api:
     resource: "@ApiBundle/Controller/"
     type:     annotation
