@@ -18,7 +18,9 @@ class AppKernel extends Kernel
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new FOS\RestBundle\FOSRestBundle(),
             new JMS\SerializerBundle\JMSSerializerBundle(),
+
             new DreamedAtlas\Bundle\ApiBundle\DreamedAtlasApiBundle(),
+            new DreamedAtlas\Bundle\FrontBundle\DreamedAtlasFrontBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

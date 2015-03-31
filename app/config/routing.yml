@@ -2,3 +2,8 @@ dreamed_atlas_api:
     resource: "@DreamedAtlasApiBundle/Controller/"
     type:     annotation
     prefix:   /
+
+dreamed_atlas_front:
+    resource: "@DreamedAtlasFrontBundle/Controller/"
+    type:     annotation
+    prefix:   /
