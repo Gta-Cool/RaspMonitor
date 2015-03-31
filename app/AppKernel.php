@@ -19,7 +19,7 @@ class AppKernel extends Kernel
             new FOS\RestBundle\FOSRestBundle(),
             new JMS\SerializerBundle\JMSSerializerBundle(),
 
-            new ApiBundle\ApiBundle(),
+            new DreamedAtlas\Bundle\ApiBundle\DreamedAtlasApiBundle(),
             new DreamedAtlas\Bundle\FrontBundle\DreamedAtlasFrontBundle(),
         );
 
